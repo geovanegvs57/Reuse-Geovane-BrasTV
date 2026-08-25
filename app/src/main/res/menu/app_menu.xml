@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/app_remove" android:title="Desinstalar"/>
+    <item android:id="@+id/app_clear" android:title="Limpar dados"/>
+    <item android:id="@+id/app_stop" android:title="Parar"/>
+    <item android:id="@+id/app_shortcut" android:title="Criar atalho"/>
+    <item android:id="@+id/app_reset_trial" android:title="Resetar Trial"/>
+</menu>

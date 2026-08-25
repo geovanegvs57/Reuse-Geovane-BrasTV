@@ -13,8 +13,7 @@
                 android:id="@+id/toolbar_layout"
                 layout="@layout/view_toolbar" />
 
-
-        <com.github.nukc.stateview.StateView
+        <FrameLayout
                 android:id="@+id/stateView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
@@ -23,7 +22,6 @@
                 android:id="@+id/recyclerView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
-
 
     </LinearLayout>
 

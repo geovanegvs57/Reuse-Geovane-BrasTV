@@ -107,16 +107,16 @@ class FakeManagerActivity : BaseActivity() {
                 viewBinding.searchView.setQuery("", false)
                 filterApp("")
                 if (it.isNotEmpty()) {
-                    viewBinding.stateView.showContent()
+                    // viewBinding.stateView.showContent() // REMOVIDO - StateView não está mais disponível
                 } else {
-                    viewBinding.stateView.showEmpty()
+                    // viewBinding.stateView.showEmpty() // REMOVIDO - StateView não está mais disponível
                 }
             }
         }
     }
 
     private fun loadAppList() {
-        viewBinding.stateView.showLoading()
+        // viewBinding.stateView.showLoading() // REMOVIDO - StateView não está mais disponível
         viewModel.getInstallAppList(currentUserID())
     }
 
